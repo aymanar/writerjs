@@ -6,7 +6,7 @@ WriterJS is a plugin that you can use to add an amazing writing effect to your w
 
 ### CSS
 
-Include the writer.min.css file in src directory to the `<head>` of your page before your main stylesheet.
+Include the `writer.css` file in src directory to the `<head>` of your page before your main stylesheet.
 
 ```html
 <link rel="stylesheet" href="https://github.com/eissapk/writerjs/raw/master/src/writer.min.css">	
@@ -14,7 +14,7 @@ Include the writer.min.css file in src directory to the `<head>` of your page be
 
 ### JS
 
-Include the writer.min.js file in src directory to the `<body>` of your page.
+Include the `writer.js` file in src directory to the `<body>` of your page.
 
 ```html
 <script src="https://github.com/eissapk/writerjs/raw/master/src/writer.min.js"></script>
