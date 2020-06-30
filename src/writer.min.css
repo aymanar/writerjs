@@ -1,0 +1,1 @@
+.writer-text{position:relative;font-weight:700;line-height:25px;display:inline!important}.writer-text::after{position:absolute;content:"";width:10px;height:25px;right:-10px;background:#000;animation:blink 1s cubic-bezier(.68,-.55,.27,1.55) infinite}@keyframes blink{from{visibility:hidden}to{visibility:visible}}

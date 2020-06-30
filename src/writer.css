@@ -1,0 +1,27 @@
+.writer-text {
+    position: relative;
+    font-weight: bold;
+    line-height: 25px; /* must be the same */
+    display: inline !important;
+}
+
+.writer-text::after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 25px; /* must be the same */
+    right: -10px;
+    background: black;
+    animation: blink 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+}
+
+@keyframes blink {
+    from {
+        visibility: hidden;
+    }
+
+    to {
+        visibility: visible;
+    }
+}
+
