@@ -6,7 +6,7 @@ WriterJS is a plugin that you can use to add an amazing writing effect to your w
 
 ### CSS
 
-Include the `writer.css` file in src directory to the `<head>` of your page before your main stylesheet.
+Include the `writer.css` file in `src` folder to the `<head>` of your page before your main stylesheet.
 
 ```html
 <link rel="stylesheet" href="https://github.com/eissapk/writerjs/raw/master/src/writer.min.css">	
@@ -14,7 +14,7 @@ Include the `writer.css` file in src directory to the `<head>` of your page befo
 
 ### JS
 
-Include the `writer.js` file in src directory to the `<body>` of your page.
+Include the `writer.js` file in `src` folder to the `<body>` of your page.
 
 ```html
 <script src="https://github.com/eissapk/writerjs/raw/master/src/writer.min.js"></script>
@@ -22,7 +22,7 @@ Include the `writer.js` file in src directory to the `<body>` of your page.
 
 ## Example
 
-Add this tag in your body
+Add this tag in your `<body>`
 
 ```html
 <span class="writer-text" data-sentences="test one <(*)>test two <(*)>test three" data-wait-sentence="3000" data-wait-letter="100"></span>
@@ -39,3 +39,7 @@ This refers to the amount of time in milliseconds until switching to the next se
 `data-wait-letter`
 
 This refers to the speed of typing each letter in milliseconds.
+
+## Why that symbol <(*)> ?
+
+I wanted it to be unique, for avoiding any bugs.
