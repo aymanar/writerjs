@@ -9,7 +9,7 @@ WriterJS is a plugin that you can use to add an amazing writing effect to your w
 Include the `writer.css` file in `src` folder to the `<head>` of your page before your main stylesheet.
 
 ```html
-<link rel="stylesheet" href="/src/writer.min.css">	
+<link rel="stylesheet" href="https://eissa.xyz/writerjs/src/writer.min.css">	
 ```
 
 ### JS
@@ -17,7 +17,7 @@ Include the `writer.css` file in `src` folder to the `<head>` of your page befor
 Include the `writer.js` file in `src` folder to the `<body>` of your page.
 
 ```html
-<script src="/src/writer.min.js"></script>
+<script src="https://eissa.xyz/writerjs/src/writer.min.js"></script>
 ```
 
 ## Example
